@@ -22,6 +22,12 @@ To run the application on the browser: <br/>
 
 ## Features
 
+1. Used JWT for login
+2. The user can play a quiz only once
+3. On submitting a quiz, the user is redirected to the feedback page. Here the student cannot redirect back to the Quiz.
+4. Chatbot is provided, so new users can easily navigate through the appication
+5. Teachers can get an overview of student's performances with the help of charts.
+
 Landing Page
 ![Landing Page](client/quizzards-client/src/assets/img/landing_page.png)
 
@@ -31,31 +37,37 @@ Registration Page :
 Login Page :
 ![Login Page](client/quizzards-client/src/assets/img/login.png)
 
+ChatBot
+![Chatbot](client/quizzards-client/src/assets/img/chat_bot.png)
+
 <br/>
 Teachers Side:
 <br/>
 
 Dashboard Page
-![Dashboard Page](src/assets/images/teacher_dashboard.png)
+![Dashboard Page](client/quizzards-client/src/assets/img/teacher_dashboard.png)
 
 Create Quiz
-![Create Quiz](src/assets/images/teacher_create_questions.png)
+![Create Quiz](client/quizzards-client/src/assets/img/teacher_create_questions.png)
 
 Challenge List
-![Challenge List](src/assets/images/teacher_challenges_list.png)
+![Challenge List](client/quizzards-client/src/assets/img/teacher_challenges_list.png)
 
 View Feedback recived by Students
-![View Feedback](src/assets/images/teacher_view_feedback_reports.png)
+![View Feedback](client/quizzards-client/src/assets/img/teacher_view_feedback_reports.png)
 
 View students performances via Charts
-![View Student Reports](src/assets/images/teacher_view_student_reports.png)
+![View Student Reports](client/quizzards-client/src/assets/img/teacher_view_student_reports.png)
 
 <br/>
 Student Side:
 <br/>
 
 Dashboard Page
-![Dashboard Page](src/assets/images/student_dashboard.png)
+![Dashboard Page](client/quizzards-client/src/assets/img/student_dashboard.png)
 
 View report of challenge
-![View Report](src/assets/images/student_reports.png)
+![View Report](client/quizzards-client/src/assets/img/student_reports.png)
+
+Join Game
+![Game Pin](client/quizzards-client/src/assets/img/student_join_challenge.png)
