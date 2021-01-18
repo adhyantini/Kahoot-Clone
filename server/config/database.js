@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var gracefulShutdown;
-var dbURI = 'mongodb+srv://quizzardsUser:quizzards12@cluster0.xlxyo.mongodb.net/quizzards?retryWrites=true&w=majority';
+var dbURI = 'mongodb://127.0.0.1/quizzards';
 // if (process.env.NODE_ENV === 'production') {
 //   dbURI = process.env.MONGOLAB_URI;
 // }
